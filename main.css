@@ -1,0 +1,172 @@
+*{
+    margin: 0px;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "M PLUS Rounded 1c", sans-serif;
+}
+body{
+    background-color: rgba(239, 235, 217, 0.628);
+}
+.container,h2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+header h1,
+header ul li a{
+    color: #FFFF00;
+}
+header ul li{
+    display: inline;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+header ul li a{
+    margin-left: 24px;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+}
+header h1 {
+    font-size: 40px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-variation-settings: 20px;
+    font-weight: 100;
+    letter-spacing:1px;
+}
+header{
+    background-color: #313030;
+    padding: 30px 30px;
+}
+
+section{
+    margin-top: 35px;
+}
+section .container img{
+    max-width: 650px;
+    margin-right: 20px;
+    border-radius: 8px;
+}
+section .container {
+    display:flex;
+    align-items: flex-start;
+}
+section .container h2{
+    display: flex;
+    justify-content: start;
+    margin-bottom: 10px;
+    font-size: 28px;
+    font-weight: 800;
+    letter-spacing: -1px;
+}
+section .container p{
+    font-size: 17px;    
+}
+section .container p,
+section .container h2{
+    color: #383800;
+}
+
+#avaliação .container{
+    margin-top: 35px;
+    display: block;
+}
+#avaliação .container img{
+    max-height: 120px;
+    display: block;
+    justify-content: space-around;
+    align-items: baseline;
+    padding: 15px 10px 15px 0;
+}
+#avaliação .container ul li{
+    list-style: none;
+}
+#avaliação .container ul li h3 {
+    display: inline;
+}
+#avaliação .container ul li {
+    display: flex;
+    align-items: center;
+}
+#avaliação .container h3{
+    font-size: 30px;
+    margin: 20px;
+    color: rgb(34, 34, 34);
+    background-size: contain;
+    background-color: rgb(67, 221, 121);
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 10px ;
+    border-color:rgb(67, 221, 121);
+}
+
+
+#comentarios .container { 
+    display: block;
+    align-items: center;
+    align-content: center;
+}
+#comentarios .container textarea{
+    resize: none;
+    height: 23px;
+    width: 320px;
+    border-radius: 5px;
+}
+#comentarios  form #number{
+    max-width: 60px;
+}
+#comentarios .container form button{
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+}
+#comentarios .container form {
+    display: flex;
+}
+#comentarios .container form input {
+    margin-right: 10px;
+    border-radius: 5px;
+}
+#comentarios .container form label{
+    margin-right: 5px;
+}
+#comentarios{
+    margin-bottom: 30px;
+}
+#comentarios .container h2{
+    margin-bottom: 30px;
+}
+
+
+#contact .container h2{
+    display: flex;
+}
+#contact .container .social-links a img {
+    max-width: 40px;
+}
+#contact {
+    display: block;
+}
+#contact .container .contact-methods{
+    display: block;
+}
+#contact .container .contact-methods form input,
+#contact .container .contact-methods form button{
+    display: block;
+}
+#contact .container .contact-methods form input,
+#contact .container .contact-methods form textarea,
+#contact .container .contact-methods form button {
+    width: 200px;
+}
+#contact .container .contact-methods form textarea{
+    resize: none;
+}
+#contact .container .social-links li a {
+    text-decoration: none;
+    
+}
